@@ -1,0 +1,12 @@
+# Gyroscopic Harmonizer Requirements
+# ===================================
+# Python 3.8+
+# Core library uses only standard library
+# 
+# App/API dependencies:
+fastapi>=0.111.0
+uvicorn>=0.30.0
+
+# Optional dependencies for extended functionality:
+# pyyaml>=6.0      # For advanced config parsing (if needed)
+# pytest>=7.0     # For running tests with pytest (alternative to unittest)

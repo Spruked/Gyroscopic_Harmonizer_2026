@@ -1,0 +1,36 @@
+﻿Gyroscopic_Harmonizer
++-- axes
+|   +-- __init__.py
+|   +-- hume_axis.py
+|   +-- kant_axis.py
+|   +-- locke_axis.py
+|   \-- spinoza_axis.py
++-- config
+|   +-- __init__.py
+|   \-- harmonizer_config.yaml
++-- core
+|   +-- __init__.py
+|   \-- gyroscopic_core.py
++-- ethical_verdict
+|   +-- __init__.py
+|   \-- verdict_engine.py
++-- stabilizer
+|   +-- __init__.py
+|   \-- gyroscopic_stabilizer.py
++-- tests
+|   +-- __init__.py
+|   \-- test_harmonizer.py
++-- api_server.py
++-- ARCHITECTURE.md
++-- demo.py
++-- gyroscope_visualizer.py
++-- gyroscopic_harmonizer.py
++-- INTEGRATION_GUIDE.md
++-- manifest.json
++-- package-lock.json
++-- QUICK_REFERENCE.md
++-- README.md
++-- realtime_gyroscope_loop.py
++-- requirements.txt
++-- SYSTEM_SUMMARY.md
+\-- tree.txt

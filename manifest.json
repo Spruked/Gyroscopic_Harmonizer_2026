@@ -1,0 +1,107 @@
+{
+  "system_name": "Gyroscopic Ethical Harmonizer",
+  "version": "1.0.0",
+  "description": "Four-axis philosophical stabilization system for ethical decision-making",
+  "created": "2026-05-21",
+  "author": "UCM_4_Core Architecture",
+  "components": {
+    "core": {
+      "file": "core/gyroscopic_core.py",
+      "description": "Data structures, enums, and base classes",
+      "classes": [
+        "EthicalAxis",
+        "StabilityLevel",
+        "EthicalSeverity",
+        "AxisVector",
+        "GyroscopicState",
+        "EthicalDilemma"
+      ]
+    },
+    "axes": {
+      "kant": {
+        "file": "axes/kant_axis.py",
+        "philosopher": "Immanuel Kant",
+        "framework": "Deontological",
+        "class": "KantAxisController"
+      },
+      "hume": {
+        "file": "axes/hume_axis.py",
+        "philosopher": "David Hume",
+        "framework": "Sentimental",
+        "class": "HumeAxisController"
+      },
+      "spinoza": {
+        "file": "axes/spinoza_axis.py",
+        "philosopher": "Baruch Spinoza",
+        "framework": "Rational/Necessity",
+        "class": "SpinozaAxisController"
+      },
+      "locke": {
+        "file": "axes/locke_axis.py",
+        "philosopher": "John Locke",
+        "framework": "Rights/Consent",
+        "class": "LockeAxisController"
+      }
+    },
+    "stabilizer": {
+      "file": "stabilizer/gyroscopic_stabilizer.py",
+      "description": "Four-axis convergence and stability calculation",
+      "class": "GyroscopicStabilizer"
+    },
+    "verdict_engine": {
+      "file": "ethical_verdict/verdict_engine.py",
+      "description": "Verdict generation, conflict identification, recommendations",
+      "class": "EthicalVerdictEngine"
+    },
+    "main_interface": {
+      "file": "gyroscopic_harmonizer.py",
+      "description": "Unified API for the complete system",
+      "class": "GyroscopicHarmonizer"
+    }
+  },
+  "configuration": {
+    "file": "config/harmonizer_config.yaml",
+    "domains": [
+      "general",
+      "medical",
+      "legal",
+      "business",
+      "research",
+      "content_creation",
+      "data_processing",
+      "nft_minting"
+    ]
+  },
+  "documentation": [
+    "README.md",
+    "ARCHITECTURE.md",
+    "INTEGRATION_GUIDE.md",
+    "QUICK_REFERENCE.md"
+  ],
+  "tests": {
+    "file": "tests/test_harmonizer.py",
+    "coverage": [
+      "Individual axes",
+      "Stabilizer",
+      "Verdict engine",
+      "Comparison",
+      "Interface",
+      "Edge cases"
+    ]
+  },
+  "properties": {
+    "deterministic": true,
+    "stateless": true,
+    "immutable_history": true,
+    "confidence_cap": 0.75,
+    "cpu_only": true,
+    "no_external_dependencies": true
+  },
+  "integration_points": [
+    "CALI coordination module",
+    "UCM_Core_ECM convergence matrix",
+    "Tension Ledger",
+    "Worker SKGs (booklet, podcast, etc.)",
+    "SoftMax advisory"
+  ]
+}
