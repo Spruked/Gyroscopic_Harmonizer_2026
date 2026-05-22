@@ -76,8 +76,16 @@
     "README.md",
     "ARCHITECTURE.md",
     "INTEGRATION_GUIDE.md",
-    "QUICK_REFERENCE.md"
+    "QUICK_REFERENCE.md",
+    "LICENSE",
+    "PATENT_INTENT.md"
   ],
+  "intellectual_property": {
+    "license": "Proprietary - all rights reserved",
+    "patent_intent_notice": "PATENT_INTENT.md",
+    "public_access_grants_license": false,
+    "commercial_use_requires_written_permission": true
+  },
   "tests": {
     "file": "tests/test_harmonizer.py",
     "coverage": [

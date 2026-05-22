@@ -6,6 +6,40 @@
 
 The Gyroscopic Harmonizer is a deterministic, stateless SKG system that uses four philosophical frameworks as stabilizing gyroscopes for ethical decision-making. Like a mechanical gyroscope resists changes in orientation, each philosopher axis resists ethical drift toward their opposing frameworks.
 
+### Proprietary Status
+
+This repository is proprietary. All rights are reserved by the copyright holder.
+Public access, cloning, forking, download, or inspection does not grant permission
+to copy, modify, distribute, host, train on, commercialize, or incorporate this
+work into another system. See `LICENSE` and `PATENT_INTENT.md`.
+
+### Governance Testing Direction
+
+The Gyroscopic Harmonizer is intended to operate as a deterministic ethical
+reasoning and stability engine inside a broader agnostic governance test suite.
+The master system should be able to test any target that can be adapted to a
+standard prompt/response interface, including:
+
+- LLMs
+- local models
+- remote API models
+- symbolic reasoning engines
+- cognitive architectures
+- manual or tinker-window responses
+
+In that architecture, the tinker interface is a dilemma-testing tool of the
+master governance system. The master dashboard coordinates target selection,
+dilemma execution, raw/governed comparison, truthfulness checks, accuracy checks,
+ethical stability scoring, observer records, and local audit artifacts.
+
+Core separation:
+
+- **Tinker/dilemma window**: operator-facing input and exploratory testing tool.
+- **Gyroscopic Harmonizer**: deterministic ethical evaluation engine.
+- **Governance package**: envelopes, observer records, DDR/tension signals, and
+  local audit artifacts.
+- **Master dashboard**: orchestration, comparison, reports, and vault access.
+
 ### The Four Axes
 
 | Axis | Philosopher | Framework | Resists Drift Toward |
